@@ -8,3 +8,4 @@
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 #define EE_HANDS
+#define DYNAMIC_KEYMAP_MACRO_COUNT 32
