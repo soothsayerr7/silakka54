@@ -1,24 +1,26 @@
 {
     "customKeycodes": [
-        { "name": "UNI_LNX",  "shortName": "UniLNX",  "title": "Switch to Linux Unicode Mode" },
-        { "name": "UNI_WIN",  "shortName": "UniWIN",  "title": "Switch to Windows Unicode Mode" },
-        { "name": "UNI_MAC",  "shortName": "UniMAC",  "title": "Switch to MacOS Unicode Mode" },
-        { "name": "UNI_NEXT", "shortName": "UniNEXT", "title": "Next Unicode Mode" },
-        { "name": "UNI_PREV", "shortName": "UniPREV", "title": "Previous Unicode Mode" },
+        {"name": "S7_QUOTE", "title": "Raw Quote", "shortName": "\"\n'"},
+        {"name": "S7_CARET", "title": "Raw Caret", "shortName": "^\n6"},
+        {"name": "S7_GRAVE", "title": "Raw Grave", "shortName": "~\n`"},
 
-        { "name": "A_ACUT", "shortName": "Á", "title": "Á (Acute)" },
-        { "name": "A_CIRC", "shortName": "Â", "title": "Â (Circumflex)" },
-        { "name": "A_TILD", "shortName": "Ã", "title": "Ã (Tilde)" },
-        { "name": "A_GRAV", "shortName": "À", "title": "À (Grave)" },
-        { "name": "E_ACUT", "shortName": "É", "title": "É (Acute)" },
-        { "name": "E_CIRC", "shortName": "Ê", "title": "Ê (Circumflex)" },
-        { "name": "I_ACUT", "shortName": "Í", "title": "Í (Acute)" },
-        { "name": "O_ACUT", "shortName": "Ó", "title": "Ó (Acute)" },
-        { "name": "O_CIRC", "shortName": "Ô", "title": "Ô (Circumflex)" },
-        { "name": "O_TILD", "shortName": "Õ", "title": "Õ (Tilde)" },
-        { "name": "U_ACUT", "shortName": "Ú", "title": "Ú (Acute)" },
-        { "name": "C_CEDL", "shortName": "Ç", "title": "Ç (Cedilla)" }
-    ],
+        {"name": "S7_A_ACUT", "title": "A Acute", "shortName": "Á"},
+        {"name": "S7_E_ACUT", "title": "E Acute", "shortName": "É"},
+        {"name": "S7_I_ACUT", "title": "I Acute", "shortName": "Í"},
+        {"name": "S7_O_ACUT", "title": "O Acute", "shortName": "Ó"},
+        {"name": "S7_U_ACUT", "title": "U Acute", "shortName": "Ú"},
+
+        {"name": "S7_A_CIRC", "title": "A Circumflex", "shortName": "Â"},
+        {"name": "S7_E_CIRC", "title": "E Circumflex", "shortName": "Ê"},
+        {"name": "S7_O_CIRC", "title": "O Circumflex", "shortName": "Ô"},
+
+        {"name": "S7_A_TILD", "title": "A Tilde", "shortName": "Ã"},
+        {"name": "S7_O_TILD", "title": "O Tilde", "shortName": "Õ"},
+
+        {"name": "S7_A_GRAV", "title": "A Grave", "shortName": "À"},
+
+        {"name": "S7_C_CEDL", "title": "C Cedilla", "shortName": "Ç"}
+  ],
 
     "matrix": {
         "rows": 10,
